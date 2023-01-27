@@ -1,14 +1,10 @@
 from ursina import *
 
 
-app = Ursina()
+app = Ursina(size=(800,600), borderless=True, exit_button=True)
 
 
-# button1 = Button(text='Thing', color=color.blue, scale=0.5)
-button2 = Button(text='Other\nThing', color=color.red, scale=0.5)
-
-def update():
-    pass
-
+# window.fps_counter.enabled = True
+# window.title = "button_fun"
 
 app.run()

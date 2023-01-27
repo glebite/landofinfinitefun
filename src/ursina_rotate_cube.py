@@ -8,6 +8,7 @@ import time
 app = Ursina()
 window.title = "Hello there."
 
+
 blammo = Entity(model="objs/untitled.obj", color=color.white, scale=0.5, texture="brick")
 blammo.set_position((-2,-1,0))
 redcube = Entity(model="cube", scale=0.5, color=color.red, texture="brick")
